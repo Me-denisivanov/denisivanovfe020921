@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { memo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Avatar } from '../../shared/ui/Avatar/Avatar';
 import { Card } from '../../shared/ui/Card/Card';
@@ -9,7 +9,7 @@ interface DetailsCardProps {
     infoUser: User
 }
 
-export const DetailsCard = ({ infoUser }: DetailsCardProps) => {
+export const DetailsCard = memo(({ infoUser }: DetailsCardProps) => {
     const navigate = useNavigate();
 
     const goBack = useCallback(() => {
@@ -50,4 +50,4 @@ export const DetailsCard = ({ infoUser }: DetailsCardProps) => {
             </div>
         </Card>
     );
-};
+});
