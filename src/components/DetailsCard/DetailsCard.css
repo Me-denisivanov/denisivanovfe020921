@@ -1,0 +1,48 @@
+.card_photo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(219, 204, 204);
+    padding-bottom: 30px;
+}
+
+.user_details_name{
+    text-align: center;
+}
+.card_details_info{
+    padding: 50px;
+}
+
+.card_details_info > ul > li{
+    padding: 5px;
+}
+
+.card_details_button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card_details_button > button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 9px;
+    background: #5046e6;
+    color: #fff;   
+}
+
+.button_back{
+    padding: 50px;
+}
+
+.button_back > button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 9px;
+    background: #5046e6;
+    color: #fff;  
+}

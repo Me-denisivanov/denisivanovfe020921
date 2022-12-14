@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button_view{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 9px;
+}
+
+.button_view:hover{
+    opacity: 0.7;
+}
+
+.button_view_all{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 9px;
+    min-width: 100%;
+}
